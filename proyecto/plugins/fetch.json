@@ -1,8 +1,8 @@
 {
-    "cordova-plugin-whitelist": {
+    "org.apache.cordova.device-orientation": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
+            "id": "org.apache.cordova.device-orientation"
         },
         "is_top_level": true,
         "variables": {}

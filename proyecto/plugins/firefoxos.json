@@ -4,10 +4,21 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Compass\"><param name=\"firefoxos-package\" value=\"Compass\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
+        "org.apache.cordova.device-orientation": {
             "PACKAGE_NAME": "com.demo"
         }
     },
