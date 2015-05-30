@@ -37,7 +37,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.device-orientation": "0.3.11"
+    "org.apache.cordova.device-orientation": "0.3.11",
+    "cordova-plugin-whitelist": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

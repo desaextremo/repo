@@ -9,6 +9,9 @@
     "installed_plugins": {
         "org.apache.cordova.device-orientation": {
             "PACKAGE_NAME": "com.demo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.demo"
         }
     },
     "dependent_plugins": {}
