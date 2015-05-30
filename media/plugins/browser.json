@@ -10,10 +10,10 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.desaextremo"
         },
-        "cordova-plugin-media-capture": {
+        "cordova-plugin-dialogs": {
             "PACKAGE_NAME": "com.desaextremo"
         },
-        "cordova-plugin-dialogs": {
+        "cordova-plugin-media-capture": {
             "PACKAGE_NAME": "com.desaextremo"
         }
     },

@@ -10,5 +10,14 @@
         "name": "Apache Cordova Team",
         "url": "http://cordova.io"
     },
-    "icons": {}
+    "icons": {},
+    "type": "privileged",
+    "permissions": {
+      "audio-capture": {
+        "description": "Required to capture audio using getUserMedia()"
+      },
+      "video-capture": {
+        "description": "Required to capture video using getUserMedia()"
+      }
+    }
 }
