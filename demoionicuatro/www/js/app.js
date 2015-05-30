@@ -17,3 +17,19 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+.controller('AnimatedListController', function($scope) {
+
+  var next_item = 0;
+
+  $scope.items = [];
+
+  for (var i=0; i < 5; i++) {
+    $scope.items.push('Item ' + (next_item++));
+  }
+
+  $scope.addItem = function(at_index) {
+    $scope.items.splice(at_index + 1, 0, 'Item ' + next_item);
+    next_item++;
+  };
+
+});
