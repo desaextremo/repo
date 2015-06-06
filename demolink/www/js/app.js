@@ -32,6 +32,12 @@ angular.module('lab56', ['ionic'])
                 url: '/second',
                 templateUrl: 'second.html'
 
+            })
+
+            .state('tercera', {
+                url: '/tercera',
+                templateUrl: 'tercera.html'
+
             });
         $urlRouterProvider.otherwise('/');
     })

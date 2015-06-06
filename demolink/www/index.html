@@ -31,18 +31,19 @@
 
     <script id="home.html" type="text/ng-template">
 
-    <ion-view>
+      <ion-view>
 
-        <ion-header-bar class="bar-header">
+        <ion-header-bar class="bar bar-header bar-calm">
 
-            <h1 class="title">Pagina Inicial</h1>
+            <h1 class="title">introducci&oacute;n a Java EE</h1>
 
         </ion-header-bar>
 
 
         <ion-content has-header="true" padding="true">
 
-            <a class="button icon-right ion-chevron-right" href="#/second">Ir a la segunda Pagina</a>
+            <a class="button icon-left ion-chevron-left button-clear button-dark" href="#/second">Anterior</a>
+            <a class="button icon-right ion-chevron-right button-clear button-dark" href="#/tercera">Siguiente</a>
 
         </ion-content>
 
@@ -53,7 +54,7 @@
 
         <ion-view>
 
-            <ion-header-bar class="bar-header">
+            <ion-header-bar class="bar-header bar-positive">
 
                 <h1 class="title">Segunda Pagina</h1>
 
@@ -61,7 +62,28 @@
 
             <ion-content has-header="true" padding="true">
 
-                <a class="button icon-left ion-home" href="#/">Atrás!</a>
+                <a class="button icon-left ion-chevron-left button-positive" href="#/segunda">Ir a la Primera Pagina</a>
+                <a class="button icon-right ion-chevron-right button-positive" href="#/tercera">Ir a la tercera Pagina</a>
+
+            </ion-content>
+
+        </ion-view>
+
+    </script>
+
+    <script id="tercera.html" type="text/ng-template">
+
+        <ion-view>
+
+            <ion-header-bar class="bar-header bar-dark">
+
+                <h1 class="title">Tercera Pagina</h1>
+
+            </ion-header-bar>
+
+            <ion-content has-header="true" padding="true">
+
+                <a class="button icon-left ion-home button-positive" href="#/">Index</a>
 
             </ion-content>
 
