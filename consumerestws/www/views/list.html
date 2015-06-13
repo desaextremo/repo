@@ -1,0 +1,54 @@
+<ion-view view-title="Primer Template">
+
+    <ion-content class="padding">
+
+        <h2 style="text-align: center;">Información entre Controladores</h2><br/>
+
+        <div class="list">
+
+            <label class="item item-input item-stacked-label">
+
+                <span class="input-label">Primer Nombre</span>
+
+                <input type="text" placeholder="Sus Nombres" ng-model="data_information.first_name">
+
+            </label>
+
+            <label class="item item-input item-stacked-label">
+
+                <span class="input-label">Apellido(s)</span>
+
+                <input type="text" placeholder="Sus Apellidos" ng-model="data_information.last_name">
+
+            </label>
+
+            <label class="item item-input item-stacked-label">
+
+                <span class="input-label">Email</span>
+
+                <input type="email" placeholder="Su e-mail" ng-model="data_information.email">
+
+            </label>
+
+        </div>
+
+        <a href="#/view" ng-style="decorator"><button class="button button-full button-energized">
+
+            Ver la Información
+
+        </button></a>
+
+        <button class="button button-full button-royal" ng-click="getList();">
+
+            Ver lista de Usuarios
+
+        </button>
+
+        <button class="button button-full button-royal" ng-click="getListproduct();">
+
+            Ver lista de productos
+
+        </button>
+
+    </ion-content>
+</ion-view>

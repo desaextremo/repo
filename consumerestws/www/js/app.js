@@ -28,18 +28,23 @@ angular.module('lab62', [
   $stateProvider
       .state('list', {
         url: '/',
-        templateUrl: 'list.html',
+        templateUrl: 'views/list.html',
         controller: 'lab62.ListController'
       })
       .state('view', {
         url: '/view',
-        templateUrl: 'view.html',
+        templateUrl: 'views/view.html',
         controller: 'lab62.ViewController'
       })
       .state('userList', {
           url: '/list',
-          templateUrl: 'user_list.html',
+          templateUrl: 'views/user_list.html',
           controller: 'lab62.ListUserController'
+      })
+      .state('productList', {
+          url: '/list',
+          templateUrl: 'views/product_list.html',
+          controller: 'lab62.ListProductController'
       });
 
   $urlRouterProvider.otherwise('/');

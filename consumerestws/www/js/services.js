@@ -14,7 +14,13 @@ angular.module('lab62.Services', [
 
 })
 
+
 .service('lists', function($resource){
 
         this.user_list = $resource('http://127.0.0.1:7070/api/v1/user/list');
+})
+
+.service('listsproducts', function($resource){
+
+        this.products_list = $resource('http://127.0.0.1:7070/api/v1/product/list');
 });
