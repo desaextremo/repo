@@ -1,0 +1,17 @@
+$primary_color: #222;
+$secondary_color: #567654;
+$page_width: 965px;
+$page_pargin_a: 5px;
+$page_pargin_b: 10px;
+body{
+	// operacion de division
+    width: $page_width / 2;
+    background: white;
+    font-color: $primary_color;
+    // operaciones de: division, suma, resta y multiplicación
+    margin: $page_pargin_a / 2 $page_pargin_a + 2 $page_pargin_b - 2 $page_pargin_b * 4;
+    // Recuerde el alcance de un Selector en Sass
+    h1{
+      font-color: $secondary_color;
+   }
+}

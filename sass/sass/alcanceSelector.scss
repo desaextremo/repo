@@ -1,0 +1,11 @@
+.recuadro{
+      width: 200px;
+      .mensaje {
+            border: 1px solid red;
+            .titulo { color: red;}
+      }
+     .usuario{
+            border: 2px solid black;
+            .titulo{ color: black;}
+    }
+}
